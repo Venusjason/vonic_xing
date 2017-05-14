@@ -1,4 +1,4 @@
-# vue-demo
+# vue-mobile
 基于vue1.0的vonic框架写的一个webApp
 接口需要调用第三方金融信息，涉及商业保密，暂未接入
 已引入vue-resource作为ajax通信框架，当然也可用vue2.0推荐的axios，写法更酷炫
