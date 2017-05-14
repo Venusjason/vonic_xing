@@ -1,0 +1,59 @@
+.xlbLogin{
+
+	.page-content{
+
+		background: #fff;
+		
+		.loginForm{
+
+			position:absolute;
+	        top:40%;
+	        left:50%;
+	        -webkit-transform:translate(-50%,-50%);
+	        -moz-transform:translate(-50%,-50%);
+	        -ms-transform:translate(-50%,-50%);
+	        -o-transform:translate(-50%,-50%);
+	        transform:translate(-50%,-50%);
+
+			width: 80%;
+
+			.von-input-wrapper{
+				
+				label.item{
+
+					border-top: 0px;
+				}
+			}
+
+			.loginBtn{
+				width: 100%;
+				margin-top: p2r(180);
+				background: #908584;
+			}
+
+			.toForget{
+
+				width: 100%;
+				margin-top: p2r(20);
+				color:$xlb;
+			}
+			
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	}
+}

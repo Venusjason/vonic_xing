@@ -1,0 +1,79 @@
+.xlbQuestions{
+
+	.tabBarWrap{
+		background: #fff;
+		z-index: 20;
+		position: fixed;
+		top:p2r(80);
+		width: 100%;
+		height: p2r(120);
+		border-bottom: 1px solid $b;
+
+		div.tabItems{
+
+			position: absolute;
+			top:p2r(30);
+			left:6%;
+			height: p2r(60);
+			border: 1px solid $xlb;
+			background: #fff;
+			width: 88%;
+			border-radius: 5px;
+			overflow: hidden;
+
+			span{
+				
+				text-align: center;
+
+				width: 33.3%;
+				height: 100%;
+				font-size: 18px;
+				vertical-align: middle;
+				line-height: p2r(60);
+				border-right: 1px solid $xlb;
+
+			}
+
+			span:last-child{
+				border-right:none;
+			}
+
+			span.active{
+				
+				color:#fff;
+				background: $xlb;
+
+			}
+
+
+
+
+
+		}
+			
+	}
+
+	.allLists{
+		position: absolute;
+		top:p2r(200);
+		width: 100%;
+		padding: p2r(50) 5%;
+
+		li{
+
+			p.answer{
+				
+				color:$xlb;
+				font-size: 16px;
+				margin-bottom: p2r(10);
+
+
+			}
+
+			p.question{
+				font-size: 16px;
+			}
+		}
+
+	}
+}

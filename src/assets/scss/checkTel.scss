@@ -1,0 +1,50 @@
+.xlbCheckTel{
+
+	.floorOne{
+
+		height: p2r(100);
+		background:#fff;
+
+		padding: p2r(10) 5%;
+
+		span{
+
+			height: 100%;
+			background: $xlb;
+			color:#fff;
+			line-height: p2r(80);
+			padding: 0 p2r(30);
+			border-radius: 25px;
+			font-size: 14px;
+
+		}
+
+		input{
+			font-size: 16px;
+		}
+
+	}
+
+	.btnWrap{
+
+		
+		padding: p2r(100) 5% 0 5%;
+
+		button{
+			width: 100%;
+			background: $xlb;
+			letter-spacing: 2px;
+		}
+	}
+
+	div.onlyText{
+		padding: p2r(100) 5%;
+
+		p.title{
+			font-size: 16px;
+		}
+		p.text{
+			font-size: 14px;
+		}
+	}
+}

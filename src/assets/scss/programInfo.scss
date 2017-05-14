@@ -1,0 +1,199 @@
+.xlbProgramInfo{
+
+	background: red;
+
+	.bottomBtn{
+
+		position: fixed;
+		bottom:0;
+		background: $xlb;
+		height: p2r(90);
+		line-height: p2r(90);
+		width: 100%;
+		z-index:10;
+		color:#fff;
+		text-align: center;
+		font-size: 20px;
+	}
+
+	.section1{
+
+		color:#fff;
+		padding: p2r(45) 0;
+		text-align: center;
+
+		background: $xlb;
+		p.title{
+
+			font-size: 18px;
+			line-height: 24px;
+			padding: 0 10%;
+			color:#F2D7DE;
+			
+		}
+
+		.wrap{
+			
+			position: relative;
+			height: p2r(40);
+			line-height: p2r(40);
+			font-size: 16px;
+			color:#E09AAF;
+
+
+			i{
+
+				display: inline-block;
+
+				height: 2px;
+				width: p2r(80);
+
+				background: #E09AAF;
+				vertical-align: middle;
+
+			}
+			span{
+				
+				margin: 0 1%;
+			}
+
+		}
+		
+
+		.numWrap{
+			margin-top: p2r(10);
+
+			span{
+
+				font-size: 20px;
+				margin-right: 6px;
+				font-weight: bold;
+			}
+
+
+
+		}
+
+
+
+
+	}
+
+	.section2{
+
+		background: #fff;
+		height: p2r(110);
+		border-bottom: 1px solid $b;
+		margin-bottom: p2r(15);
+		position: relative;
+
+		i{
+
+			height: 60%;
+			background: $b;
+			width: 1px;
+		}
+
+		.fl{
+
+			width: 50%;
+			text-align: center;
+			height: 100%;
+			color:#878787;
+			p{
+
+				padding-top: 5%;
+				margin-bottom: .6%;
+				font-size: 16px;
+			}
+
+			div{
+
+				span{
+					font-size: 18px;
+					margin-right: 4px;
+					color:#262626;
+				}
+			}
+
+		}
+
+
+	}
+
+	.section3{
+
+		background: #fff;
+		
+		border-bottom: 1px solid $b;
+		margin-bottom: p2r(15);
+
+		padding-left: 2%;
+
+		div.item{
+			
+			color:#7A7A7A;
+
+			div{
+
+				
+				width: 60%;
+				height: 5px;
+				background: #CFCFCF;
+				border-radius: 10px;
+				overflow: hidden;
+				
+
+				p{
+
+					position: absolute;
+					top:0;
+					left:0;
+					height: 100%;
+					
+					background: $xlb;
+				}
+
+			}
+
+			span{
+				
+				color:#262626;
+
+			}
+		}
+	
+	}
+
+	.section4{  //资料区
+		padding-bottom: p2r(90);
+
+		div.box{
+			padding-left: 2%;
+			background: #fff;
+			border-bottom: 1px solid $b;
+			margin-bottom: p2r(15); 
+			div.item{
+
+
+			}
+
+			p{
+
+				font-size: 14px;
+				padding: p2r(20) 0;
+
+				color:#525252;
+				line-height: 24px;
+
+			}
+		}
+
+
+
+
+	}
+
+
+	
+}

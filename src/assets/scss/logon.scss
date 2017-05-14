@@ -1,0 +1,60 @@
+.xlbLogon{
+
+	#xlbLogonPage{
+		
+		ul.formGroup{
+			margin-top: p2r(80);
+
+			i{
+				color:#878787;
+			}
+
+			p.warn{
+				display: none;
+			}
+		}
+
+		.btnWrap{
+
+		
+			padding: p2r(40) 10% 0 10%;
+
+			button{
+				width: 100%;
+				background: $xlb;
+				letter-spacing: 2px;
+			}
+		}
+
+		div.agreeWrap{
+
+			padding-left: 12%;
+
+			margin-top: p2r(25);
+
+			vertical-align: middle;
+			font-size: 16px;
+			
+
+			input{
+				width: p2r(30);
+				height: p2r(30);
+				vertical-align: middle;
+
+				margin-right: p2r(20);
+			}
+			
+			span{
+				color:$xlb;
+			}
+
+		}
+
+		.xlbCopyright{
+			margin-top: p2r(80);
+		}
+
+
+	}
+
+}

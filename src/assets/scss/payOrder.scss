@@ -1,0 +1,190 @@
+.xlbPayOrder{
+
+	.section1{
+
+		.wrap{
+
+			span{
+				font-size: 30px;
+				color:#fff;
+				letter-spacing: 2px;
+			}
+		}
+
+		.numWrap{
+
+			color:#E6ABBB;
+			margin-top: p2r(20);
+			font-size: 16px;
+		}
+	}
+
+	.orderSection{
+
+		background: #fff;
+		border-top: 1px solid $b;
+		border-bottom: 1px solid $b;		
+		margin-top: p2r(15);
+		
+
+		.title{
+			height: p2r(80);
+			line-height:  p2r(80);
+
+			font-size: 18px;
+			color:#6D6D6D;
+			border-bottom: 1px solid $b;
+			padding-left: 5%;
+		}
+
+		.wrap{
+
+			padding: p2r(20) 0;
+		}
+
+		.floor{
+			height: p2r(60);
+			line-height: p2r(60);
+			font-size: 16px;
+			position: relative;
+
+			.name{
+				color:#6D6D6D;
+				position: absolute;
+				left:5%;
+				top:0;
+				height: 100%;
+			}
+			.info{
+				color:#262626;
+				position: absolute;
+				right:5%;
+				top:0;
+				height: 100%;
+				text-align: right;
+			}
+		}
+	}
+
+
+	.orderSection2{
+
+		.title{
+			span{
+				font-size: 14px;
+			}
+		}
+
+		div.cardsSection{
+
+			margin-bottom: p2r(15);
+			background: #fff;
+			border-top: 1px solid $b;
+			border-bottom: 1px solid $b;
+			
+			.cardSection{
+
+				padding-left: 5%;
+
+				p.cardType{
+
+					height: p2r(60);
+					line-height: p2r(60);
+					padding-left: 5%;
+					color:#6D6D6D;
+					font-size: 16px;
+					margin-bottom: 0;
+				}
+
+
+				.typeWrap{
+					
+					height: p2r(100);
+					line-height: p2r(100);
+
+					vertical-align: middle;
+
+					border-bottom: 1px solid $b;
+
+					.bankImg{
+
+						width: p2r(60);
+						height: p2r(60);
+						vertical-align: middle;
+						margin-right: p2r(10);
+					}
+
+					span{
+
+						vertical-align: middle;
+
+						font-size: 16px;
+					}
+
+					i{
+
+						float: right;
+						margin-right: 10%;
+						font-size: 26px;
+						color:#949494;
+						position: relative;
+
+
+						input{
+							
+							opacity: 0;
+							width: 100%;
+							height: 100%;
+							z-index: 10;
+							position: absolute;
+							top:0;
+							left:0; 
+						}
+
+
+					}
+
+					i.checked{
+
+						color:$xlb;
+					}
+
+				}
+			}
+		
+		}
+
+
+	}
+
+	.payPsd{
+
+
+		height: p2r(100);
+		line-height: p2r(100);
+		margin-bottom: p2r(150);
+		position: relative;
+		font-size: 16px;
+
+		span{
+			position: absolute;
+			height: 100%;
+			left:5%;
+
+		}
+
+		input{
+
+			position: absolute;
+			right: 5%;
+			top:10%;
+			height: 80%;
+			border: 1px solid #878787;
+			padding-left: 10px;
+			border-radius: 8px;
+			font-size: 16px;
+		}
+	}
+	
+	
+}

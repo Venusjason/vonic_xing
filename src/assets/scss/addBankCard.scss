@@ -1,0 +1,55 @@
+.xlbAddBankCard{
+	font-size: 16px;
+	p.title{
+		line-height: p2r(50);
+		padding-left: 5%;
+		color:#8F8F8F;
+
+	}
+	
+	.listsLineWrap{
+
+		li.listLine{
+
+			div.listItem{
+				.liLeft{
+					width: 50%;
+					
+				}
+
+				.liRight{
+
+					width: 50%;
+					input{
+						text-align: left;
+					}
+				}
+			}
+		}
+	}
+
+	.btnWrap{
+
+		
+		padding: p2r(20) 5% p2r(50) 5%;
+
+		button{
+			width: 100%;
+			background: $xlb;
+			letter-spacing: 2px;
+		}
+	}
+
+	p.netWork{
+
+		background: #fff;
+		height: p2r(100);
+		background: #fff;
+		padding-left: 5%;
+		line-height: p2r(100);
+		border-top:1px solid $b;
+		border-bottom: 1px solid $b;
+	}
+
+
+}

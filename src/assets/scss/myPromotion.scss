@@ -1,0 +1,186 @@
+.xlbMyPromotion{
+	
+	.tabs-striped{
+
+		position: fixed;
+		top:p2r(0);
+		left:0;
+		width: 100%;
+		
+		.tabs{
+
+			padding: 0 5%;
+
+			a.tab-item{
+				
+			}
+		}
+
+	}
+
+
+	.tabBoxUl{
+
+		
+
+		li.tabBox{
+			
+			font-size: 14px;
+		}
+
+		li.popularizeMe{
+			padding: 0 5%;
+			margin-top: p2r(120);
+			
+			p.title{
+
+			}
+
+			div.link{
+
+				background: #fff;
+				border-top: 1px solid $b;
+				border-bottom: 1px solid $b;
+				width: 110%;
+				position: relative;
+				left:-5%;
+
+				padding: 0 5%;
+				margin-bottom: p2r(40);
+
+				a{
+
+					color:$xlb;
+					text-decoration: none;
+				}
+			}
+
+			img{
+				width: 100%;
+				margin:p2r(20) auto;
+			}
+
+
+		}
+
+		li.popularizeOther{
+
+			margin-top: p2r(95);
+
+			.emptyDiv{
+
+				.xlbCenter{
+
+					width: 60%;
+					text-align: center;
+
+					img{
+
+						width: 20%;
+					}
+
+					p{
+						
+						font-size: 14px;
+						color:#888888;
+						margin-top: p2r(20);
+
+					}
+				}
+			}
+
+
+			div.list{
+
+
+				button.button{
+					color:$xlb;
+				}
+
+				table{
+					padding: p2r(20) 5%;
+					display: block;
+					th{
+						display: inline-block;
+						height: p2r(42);
+						text-align: center;
+						vertical-align: middle;
+						line-height: p2r(42);
+					}
+
+					td{
+						display: inline-block;
+						height: p2r(42);
+						text-align: center;
+						vertical-align: middle;
+						line-height: p2r(42);
+
+					}
+
+					thead{
+						display: block;
+
+						
+						tr{
+							display: block;
+							padding: p2r(20) 0;
+							
+							
+							.one{
+
+								width:10%;
+							}
+
+							.two{
+								width:42%;
+								border-right: 1px solid #CBCBCB;
+							}
+							.three{
+								width:42%;
+							}
+						}
+					}
+
+					tbody{
+						display: block;
+
+						tr{
+							background: #EFEFEF;
+							border-radius: 10px;
+
+							margin-bottom: p2r(10);
+							display: block;
+							padding: p2r(20) 0;
+							.one{
+
+								width:10%;
+							}
+
+							.two{
+								width:42%;
+								border-right: 1px solid #fff;
+
+
+							}
+							.three{
+								width:42%;
+							}
+						}
+					}
+				}
+			}
+
+
+
+		}
+
+
+
+
+
+	}
+
+
+
+
+}

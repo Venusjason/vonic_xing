@@ -1,0 +1,68 @@
+.xlbAboutCardMoney{
+
+	.operateCardDiv{
+
+		height: 200px;	
+		width: 100%;
+		margin-top: p2r(40);
+
+
+
+		.agreeDiv{
+
+
+			padding-top: p2r(20);
+			padding-left: 5%;
+
+			vertical-align: middle;
+			font-size: 14px;
+			color:#666666;
+			input{
+				vertical-align: middle;
+			}
+		}
+
+		.moneyBtn{
+
+			width: 90%;
+			margin:  5%;
+
+			background: $xlb;
+		}
+
+		.xlbPrompt{
+
+			padding: 0 5%;
+
+			margin-bottom: p2r(20);
+
+			p.title{
+				font-size: 16px;
+
+			}
+
+			ol{
+
+				li{
+
+
+					a{
+						color:$xlb;
+						margin-right: p2r(10);
+					}
+				}
+			}
+
+
+		}
+		
+
+
+
+
+
+	}
+
+
+
+}

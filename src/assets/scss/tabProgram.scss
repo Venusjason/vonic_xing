@@ -1,0 +1,120 @@
+.xlbTabProgram{
+	
+	
+	.filterType{
+		background: #fff;
+		font-size: 18px;
+		position: fixed;
+		width: 100%;
+		z-index: 21;
+
+		.isFilterTypeTap{
+
+			color:$xlb;
+		}
+
+		.filterTypeTap{
+			
+			height: p2r(80);
+			line-height: p2r(80);
+			text-align: center;
+
+			i{
+
+				margin-right: p2r(15);
+			}
+		}
+
+		.allFilterWrap{
+
+			width: 100%;
+			
+			background: #fff;
+			border-bottom: 1px solid #E6E6E6;
+			border-top: 1px solid #E6E6E6;
+			.sections{
+
+				height: p2r(500);
+				overflow: scroll;
+			
+				.section{
+
+					
+					padding: 0 p2r(30);
+
+					p.sectionName{
+
+						height: p2r(45);
+						color: #9A9A9A;
+						line-height: p2r(65);
+						font-size: 15px;
+					}
+
+					ul{
+
+						border-bottom: 1px solid #E6E6E6;
+						li{
+
+							float: left;
+							height: p2r(48);
+							width: 25%;
+							border-radius: 5px ;
+							border: 1px solid #E6E6E6;
+							text-align: center;
+							line-height:  p2r(48);
+							font-size:14px;
+							margin-bottom: p2r(18);
+							margin-right: 12%;
+
+						}
+
+						li.active{
+							border-color: $xlb;
+						}
+
+						li:nth-child(3n){
+							margin-right:0;
+						}
+
+					}
+
+				}
+			}
+
+			.btns{
+
+				button{
+
+					width: 50%;
+					margin: 0;
+					padding: 0;
+					float:left;
+				}
+
+				.reset{
+					background:#F4DBE8;
+					color:$xlb;
+				}
+				.sure{
+					background:$xlb;
+					color:#fff;
+				}
+			}
+
+
+		}
+		
+
+	}
+
+	.scroll{//列表
+
+		position: absolute;
+		top:p2r(200);
+
+
+	}
+
+
+
+}

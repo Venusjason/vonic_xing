@@ -1,0 +1,47 @@
+.xlbUnWrapCard{
+
+	font-size: 16px;
+	p.title{
+		line-height: p2r(50);
+		padding-left: 5%;
+		color:#8F8F8F;
+
+	}
+
+	.listsLineWrap{
+
+		li.listLine{
+
+			div.listItem{
+				.liLeft{
+					
+					
+				}
+
+				.liRight{
+
+					
+					input{
+						text-align: left;
+						border:1px solid #D9D9D9;
+						padding: 0 10px;
+						border-radius: 8px;
+					}
+				}
+			}
+		}
+	}
+
+	.btnWrap{
+
+		
+		padding: p2r(120) 5% p2r(50) 5%;
+
+		button{
+			width: 100%;
+			background: $xlb;
+			letter-spacing: 2px;
+		}
+	}
+
+}

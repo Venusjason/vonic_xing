@@ -1,0 +1,172 @@
+#xlbTabMe{
+
+	.topSection{
+
+		position: fixed;
+		top:0;
+		left:0;
+		width: 100%;
+		height: p2r(430);
+		background:$xlb;
+		
+		color:#fff;
+
+		.floorOne{
+
+			height: p2r(90);
+			
+			position: relative;
+
+			span{
+				height: 100%;	
+				text-align: center;
+				line-height: p2r(90);
+			}
+
+			.fl{
+
+				width: p2r(100);
+				font-size: 16px;
+			}
+
+			.xlbCenter{
+
+				width: 30%;
+				font-size: 20px;
+			}
+
+		}
+
+		.floorTwo{
+			text-align: center;
+			padding: p2r(45) 0;
+
+			.icon{
+				margin-left: p2r(10);
+			}
+
+			p.text{
+				font-size: 14px;
+				margin-bottom: p2r(10);
+				
+			}
+
+			p.num{
+				font-size: 20px;
+				font-weight: bold;
+
+			}
+		}
+
+		.floorThree{
+
+			height: p2r(140);
+			text-align: center;
+
+			.fl{
+				width: 50%;
+				height: 100%;
+
+				p.text{
+					font-size: 14px;
+					margin-bottom: p2r(10);
+					.icon{
+						margin-left: p2r(10);
+					}
+					
+				}
+
+				p.num{
+					font-size: 20px;
+					font-weight: bold;
+
+				}
+
+			}
+		}
+
+
+	}
+
+	.userInfos{	
+		
+		width: 100%;
+		padding-top: p2r(330);
+		background: #fff;
+		
+
+		.lastMoney{
+			color:#535353;
+
+			height: p2r(70);
+			line-height: p2r(70);
+			border-bottom: 1px solid $b;
+			text-indent: 10%;
+			font-size: 14px;
+
+			span,i{
+				color:$xlb;
+				text-indent: 2%;
+
+			}
+
+		}
+
+		.operate{
+
+			height: p2r(88);
+			width: 100%;
+			border-bottom:  1px solid $b;
+			position: relative;
+			
+			span{
+
+				float: left;
+				width: 50%;
+
+				text-align: center;
+				line-height:  p2r(88);
+				font-size: 18px;
+				color:$xlb;
+			}
+
+			i{
+				height: 40%;
+				width: 2px;
+				background: $b;
+			}
+
+		}
+
+	}
+
+	.userDetails{
+		width: 100%;
+		
+		background: #fff;
+		margin-top: p2r(15);
+
+	
+
+
+	}
+
+	.quitDiv{
+
+		margin-top:  p2r(10);
+		
+		padding: 5%;
+		padding-bottom: 0;
+
+		button{
+			background: $xlb;
+		}
+
+	}
+	.xlbCopyright{
+
+		position: relative;
+		margin-bottom: p2r(80);
+	}
+
+}
